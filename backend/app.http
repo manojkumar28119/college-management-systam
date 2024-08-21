@@ -1,0 +1,54 @@
+POST  http://localhost:4000/login 
+Content-Type: application/json 
+
+{
+    "username":"harinisrilekha173@gmail.com",
+    "password":"Harini@173"
+}
+
+
+### 
+
+GET http://localhost:4000/alldata
+
+
+### 
+
+POST  http://localhost:4000/add-staff 
+Content-Type: application/json 
+
+{
+    "name":"manoj",
+    "phone":8074245878,
+    "email":"manoj@gmail.com"
+} 
+
+
+### 
+DELETE http://localhost:4000/staff/1
+
+
+
+### 
+POST  http://localhost:4000/add-student 
+Content-Type: application/json 
+
+{
+    "name":"kumar",
+    "phone":8074145878,
+    "email":"kumar@gmail.com"
+} 
+
+
+### 
+DELETE http://localhost:4000/student/1
+
+
+
+###
+POST  http://localhost:4000/add-course 
+Content-Type: application/json 
+
+{
+    "courseName":"Btech"
+} 
